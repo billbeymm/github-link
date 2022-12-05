@@ -1,0 +1,36 @@
+body {
+    background-color: #2E4158;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 431px;
+    height: 155px;
+    background: linear-gradient(180deg, #FF8DF4 0%, #9640DA 100%);
+    border: 5px solid #000000;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.btn:hover {
+    box-shadow: 0px 0px 80px #9640DA;
+
+}
+.glow {
+    width: 417px;
+    height: 70px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.144) 100%);
+    border-radius: 12px 12px 0px 0px;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
